@@ -7,7 +7,7 @@ export default function StorySection() {
         <div className="histoire-grid">
           <div>
             <p className="section-kicker">L&apos;histoire</p>
-            <h2>Née du tonnerre. Forgée dans l'ombre. Destinée à marquer.</h2>
+            <h2>Née de l'éclair. Forgée dans l'ombre. Destinée à marquer.</h2>
             <p>
               DJOS vient d&apos;une vision claire : créer un univers qui parle à
               ceux qui avancent, bâtissent, chutent parfois, puis reviennent plus forts.
