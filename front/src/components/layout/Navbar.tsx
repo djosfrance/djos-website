@@ -30,16 +30,20 @@ export default function Navbar() {
             <img src="/images/logo.png" alt="DJOS logo" />
           </a>
 
+          
           <ul className="nav-links">
-            <li><a href="#produit">La Vision</a></li>
-            <li><a href="#histoire">L'histoire</a></li>
-            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#produit"> </a></li>
+            <li><a href="#histoire"> </a></li>
+            <li><a href="#newsletter"> </a></li>
           </ul>
-
-          <a href="mailto:contact@djos.fr" className="nav-cta">
-            Commander
+          
+          <a
+            href="#"
+            className="nav-cta"
+            onClick={(e) => e.preventDefault()}
+          >
+            Bientôt disponible
           </a>
-
         </div>
 
       </nav>

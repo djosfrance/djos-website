@@ -4,17 +4,17 @@ export default function Marquee() {
 
       <div className="bande-track">
 
-        <span>Fabriqué en France</span>
+        <span>Performance française • Héritage camerounais & guadeloupéen</span>
         <span>Paris influence le monde</span>
         <span>La Puissance du Ciel</span>
-        <span>La Vision de DJOS</span>
+        <span>Le Tonnerre de DJOS</span>
 
         {/* duplication pour boucle */}
 
-        <span>Fabriqué en France</span>
+        <span>Performance française • Héritage camerounais & guadeloupéen</span>        
         <span>Paris influence le monde</span>
         <span>La Puissance du Ciel</span>
-        <span>La Vision de DJOS</span>
+        <span>Le Tonnerre de DJOS</span>
 
       </div>
 

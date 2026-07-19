@@ -13,11 +13,11 @@ export default function HomePage() {
       <main>
         <Hero />
         <Marquee />
-        <ProductSection />
-        <StorySection />
-        <NewsletterSection />
+        {/*<ProductSection />*/}
+        {/*<StorySection />*/}
+        {/*<NewsletterSection />*/}
       </main>
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 }

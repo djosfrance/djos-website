@@ -66,6 +66,9 @@ input {
 }
 
 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   pointer-events: auto;
   width: min(1240px, calc(100% - 2rem));
   margin: 0 auto;
@@ -187,7 +190,7 @@ input {
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding: 13rem 0 5rem;
+  padding: 10rem 0 1rem;
   background:
     radial-gradient(circle at 20% 20%, rgba(237, 41, 57, 0.08), transparent 22%),
     linear-gradient(180deg, #07080b 0%, #0a0a0a 35%, #090909 100%);

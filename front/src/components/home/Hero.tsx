@@ -15,7 +15,7 @@ export default function Hero() {
         </div>
 
         <h1 className="hero-title">
-          LA VISION DE <span className="accent">DJOS</span>
+          LE TONNERRE DE <span className="accent">DJOS</span>
         </h1>
 
         <p className="hero-sub">
@@ -23,6 +23,8 @@ export default function Hero() {
           Le philosophe Boureau-Deslandes écrivait après coup : <br/>
           <span className="accent">« Il fit trois coups de tonnerre les plus horribles que j’aie jamais entendus. »</span>
         </p>
+
+      {/*
 
         <div className="hero-ctas">
           <a href="#produit" className="btn-primary">
@@ -32,6 +34,7 @@ export default function Hero() {
             Découvrir l&apos;histoire
           </a>
         </div>
+        */}
       </div>
     </section>
   );
