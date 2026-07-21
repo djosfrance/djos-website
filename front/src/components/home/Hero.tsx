@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="hero" className="storm-active relative min-h-[100svh] overflow-hidden">
+    <section id="hero" className="storm-active relative overflow-hidden">
       <div className="hero-storm hero-storm-back" />
       <div className="hero-storm hero-storm-front" />
       <div className="hero-sky-flash" />
@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="hero-noise" />
 
       <div className="container mx-auto px-5 sm:px-8">
-        <div className="hero-content flex min-h-[100svh] items-center justify-center text-center">
+        <div className="hero-content flex items-center justify-center text-center">
           <div>
 
             <div className="hero-slogan text-xl sm:text-2xl lg:text-4xl">
@@ -44,7 +44,7 @@ export default function Hero() {
               <span className="accent">
                 « Il fit trois coups de tonnerre les plus horribles que j’aie jamais entendus. »<br/>
               </span>
-              — Boureau-Deslandes
+              — André-François Boureau-Deslandes
             </p>
 
           </div>
