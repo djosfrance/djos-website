@@ -4,14 +4,14 @@ export default function Marquee() {
 
       <div className="bande-track">
 
-        <span>Performance française • Héritage camerounais & guadeloupéen</span>
-        <span>Paris influence le monde</span>
+        <span>Vision française • Héritage camerounais & guadeloupéen</span>
+        <span>La nouvelle génération d'athlètes</span>
         <span>La Force du Tonnerre</span>
 
         {/* duplication pour boucle */}
 
-        <span>Performance française • Héritage camerounais & guadeloupéen</span>        
-        <span>Paris influence le monde</span>
+        <span>Vision française • Héritage camerounais & guadeloupéen</span>        
+        <span>La nouvelle génération d'athlètes</span>
         <span>La Force du Tonnerre</span>
 
       </div>
