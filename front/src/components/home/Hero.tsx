@@ -27,7 +27,7 @@ export default function Hero() {
               md:text-7xl
               lg:text-8xl
             ">
-              LE TONNERRE DE <span className="accent">DJOS</span>
+              LE TONNERRE DE <span className="accent-djos">DJOS</span>
             </h1>
 
             <p className="

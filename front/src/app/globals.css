@@ -5,6 +5,7 @@
   --foreground: #f5f0e8;
   --muted: rgba(245, 240, 232, 0.72);
   --border: rgba(255, 255, 255, 0.1);
+  --main: #b12626;
   --accent: #ed2939;
   --accent-hover: #ff3b4d;
   --accent-soft: rgba(237, 41, 57, 0.14);
@@ -192,6 +193,7 @@ input {
 
 #hero {
   position: relative;
+  padding-bottom: 90px;
   min-height: calc(100svh - 90px);
   display: flex;
   align-items: center;
@@ -399,7 +401,14 @@ input {
 }
 
 .accent {
+  color: var(--main);
+}
+
+.accent-djos {
   color: var(--accent);
+}
+
+.accent, .accent-djos {
   font-weight: 800;
   text-shadow:
     0 0 18px rgba(237,41,57,0.35);
@@ -571,41 +580,22 @@ input {
 
   overflow: hidden;
 
-  border-top: 1px solid rgba(237, 41, 57, 0.14);
-  border-bottom: 1px solid var(--border);
+  border-top: 1px solid rgba(237, 41, 57, 0.12);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 
   padding: 1.1rem 0;
 
   background:
     linear-gradient(
       180deg,
-      rgba(237, 41, 57, 0.07) 0%,
-      rgba(255, 255, 255, 0.015) 45%,
-      rgba(255, 255, 255, 0.01) 100%
+      rgba(10,10,10,0.96),
+      rgba(10,10,10,0.98)
     );
 
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.03),
-    0 -12px 40px rgba(237, 41, 57, 0.06);
+  box-shadow: none;
 
-  mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 10%,
-    black 90%,
-    transparent
-  );
-
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 10%,
-    black 90%,
-    transparent
-  );
-
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 }
 
 .bande::before {
@@ -614,9 +604,9 @@ input {
   inset: 0;
   background: linear-gradient(
     90deg,
-    transparent 0%,
-    rgba(237, 41, 57, 0.08) 50%,
-    transparent 100%
+    transparent,
+    rgba(237,41,57,0.05),
+    transparent
   );
   opacity: 0;
   pointer-events: none;
@@ -648,7 +638,7 @@ input {
 .bande-track span::after {
   content: "✦";
   margin-left: 2rem;
-  color: rgba(237, 41, 57, 0.75);
+  color: var(--accent);
   font-size: 0.8rem;
 }
 
@@ -1257,6 +1247,7 @@ footer {
   .hero-title {
     text-wrap: normal;
     text-wrap: balance;
+    padding-left: 0;
   }
 }
 
