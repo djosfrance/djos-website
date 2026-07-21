@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="container navbar-inner">
 
           <a href="#" className="nav-logo">
-            <img src="/images/logo-light-red.png" alt="DJOS logo" />
+            <img src="/images/logo.png" alt="DJOS logo" />
           </a>
 
           
