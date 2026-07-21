@@ -9,6 +9,9 @@
   --accent-hover: #ff3b4d;
   --accent-soft: rgba(237, 41, 57, 0.14);
   --accent-glow: rgba(237, 41, 57, 0.22);
+  --font-title: var(--font-anton);
+  --font-slogan: var(--font-inter);
+  --font-quote: var(--font-cormorant);
 }
 
 * {
@@ -367,7 +370,9 @@ input {
 }
 
 .hero-slogan {
+  font-family: var(--font-slogan);
   margin-bottom: 1rem;
+  font-weight: 900;
   font-size: 0.9rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -375,6 +380,8 @@ input {
 }
 
 .hero-title {
+  font-family: var(--font-title);
+  font-weight: 800;
   margin: 0;
   font-size: clamp(3rem, 7vw, 5.5rem);
   line-height: 1.05;
@@ -388,14 +395,17 @@ input {
 
 .accent {
   color: var(--accent);
+  font-weight: 800;
   text-shadow:
     0 0 18px rgba(237,41,57,0.35);
 }
 
 .hero-sub {
+  font-family: var(--font-quote);
+  font-weight: 700;
   margin-top: 1.5rem;
   max-width: 680px;
-  font-size: 1.1rem;
+  font-size: 1.01rem;
   line-height: 1.8;
   color: var(--muted);
   text-align: center;
@@ -1216,6 +1226,13 @@ footer {
     padding-top: 20rem;
     min-height: auto;
   }
+
+  @media (max-width: 900px) {
+  .hero-title {
+    text-wrap: normal;
+    text-wrap: balance;
+  }
+}
 
   .hero-lightning-1 {
     left: 78%;

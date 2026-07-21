@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="hero" className="storm-active">
+    <section id="hero" className="storm-active relative min-h-[100svh] overflow-hidden">
       <div className="hero-storm hero-storm-back" />
       <div className="hero-storm hero-storm-front" />
       <div className="hero-sky-flash" />
@@ -9,32 +9,46 @@ export default function Hero() {
       <div className="hero-lightning hero-lightning-3" />
       <div className="hero-noise" />
 
-      <div className="container hero-content">
-        <div className="hero-slogan">
-          "Le tonnerre après l&apos;<span className="accent">éclair."</span>
+      <div className="container mx-auto px-5 sm:px-8">
+        <div className="hero-content flex min-h-[100svh] items-center justify-center text-center">
+          <div>
+
+            <div className="hero-slogan text-xl sm:text-2xl lg:text-4xl">
+              "Le tonnerre après l&apos;
+              <span className="accent">éclair.</span>"
+            </div>
+
+            <h1 className="
+              hero-title
+              mt-6
+              text-5xl
+              leading-[0.9]
+              sm:text-6xl
+              md:text-7xl
+              lg:text-8xl
+            ">
+              LE TONNERRE DE <span className="accent">DJOS</span>
+            </h1>
+
+            <p className="
+              hero-sub
+              mx-auto
+              mt-8
+              max-w-3xl
+              text-base
+              leading-relaxed
+              sm:text-lg
+              lg:text-xl
+            ">
+              Nuit du 14 au 15 avril 1718.<br/>
+              <span className="accent">
+                « Il fit trois coups de tonnerre les plus horribles que j’aie jamais entendus. »<br/>
+              </span>
+              — Boureau-Deslandes
+            </p>
+
+          </div>
         </div>
-
-        <h1 className="hero-title">
-          LE TONNERRE DE <span className="accent">DJOS</span>
-        </h1>
-
-        <p className="hero-sub">
-          Une histoire gravée dans la nuit. Nuit du 14 au 15 avril 1718. Nuit du Vendredi saint. <br/>
-          Le philosophe Boureau-Deslandes écrivait après coup : <br/>
-          <span className="accent">« Il fit trois coups de tonnerre les plus horribles que j’aie jamais entendus. »</span>
-        </p>
-
-      {/*
-
-        <div className="hero-ctas">
-          <a href="#produit" className="btn-primary">
-            Commander maintenant
-          </a>
-          <a href="#histoire" className="btn-secondary">
-            Découvrir l&apos;histoire
-          </a>
-        </div>
-        */}
       </div>
     </section>
   );
