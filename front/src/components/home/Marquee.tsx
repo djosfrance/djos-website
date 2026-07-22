@@ -6,13 +6,13 @@ export default function Marquee() {
 
         <span>Vision française • Héritage camerounais & guadeloupéen</span>
         <span>La nouvelle génération d'athlètes</span>
-        <span>Force • Vitesse • Puissance</span>
+        <span>Redonner du sens à la performance</span>
 
         {/* duplication pour boucle */}
 
         <span>Vision française • Héritage camerounais & guadeloupéen</span>        
         <span>La nouvelle génération d'athlètes</span>
-        <span>Force • Vitesse • Puissance</span>
+        <span>Redonner du sens à la performance</span>
 
       </div>
 

@@ -638,7 +638,7 @@ input {
 .bande-track span::after {
   content: "✦";
   margin-left: 2rem;
-  color: var(--accent);
+  color: var(--main);
   font-size: 0.8rem;
 }
 

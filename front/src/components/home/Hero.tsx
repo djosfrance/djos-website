@@ -14,8 +14,7 @@ export default function Hero() {
           <div>
 
             <div className="hero-slogan text-xl sm:text-2xl lg:text-4xl">
-              "Le tonnerre après l&apos;
-              <span className="accent">éclair.</span>"
+              "Le tonnerre après <span className="accent">l&apos;éclair.</span>"
             </div>
 
             <h1 className="
